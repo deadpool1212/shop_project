@@ -14,10 +14,10 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     date_joined = models.DateTimeField(default=timezone.now)
     phone_number = models.IntegerField()
     is_company = models.BooleanField()
-    
+    username=models.CharField(max_length=30,unique=True)
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['phone_number','is_company']
+    REQUIRED_FIELDS = ['phone_number','is_company', 'username']
 
     objects = CustomUserManager()
 

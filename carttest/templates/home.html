@@ -1,0 +1,10 @@
+<h1> This is home.html </h1>
+<ol>
+
+{% if user.is_authenticated %}
+<a href="{% url 'new' %}"> Add new </a>
+{% endif %}
+{% for product in products %}
+<li>{{ product.title }} {{ product.descrip }} <img src="media/{{ product.image }}" height="50px" width="50px"></img> {{ product.cost }} </li>
+{% endfor %}
+</ol>

@@ -26,3 +26,7 @@ def new_product(request,*args,**kwargs):
 
 def success(request):
 	return HttpResponse('Success')
+
+def product_detail(request,slug):
+	product=Product.objects.get(slug=slug)
+	return render(request,'product_detail.html',{'product':product})

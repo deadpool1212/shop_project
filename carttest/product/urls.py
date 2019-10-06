@@ -10,6 +10,7 @@ urlpatterns = [
     path('',home,name='home' ),
     re_path(r'^new/$',new_product , name='new'),
     re_path(r'^success/$', success, name = 'success'), 
-    path('<slug:slug>/detail/',product_detail,name='product_detail')
+    path('detail/<slug:slug>/',product_detail,name='product_detail'),
+    path('change/<slug:slug>/',product_edit,name='product_edit')
 ]
 

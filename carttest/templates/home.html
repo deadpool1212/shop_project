@@ -6,7 +6,7 @@
 {% endif %}
 {% for product in products %}
  
-<li>{{ product.title }} <img src="{{ product.image.url }}" height="50px" width="50px"></img> {{ product.cost }}  <a href= "{% url 'product_detail' slug=product.slug %}">Know more </li>
+<li>{{ product.title }} <img src="{{ product.image.url }}" height="50px" width="50px"></img> {{ product.cost }}  <a href= "{% url 'product_detail' slug=product.slug %}">Know more </a></li>
 
 {% endfor %}
 </ol>

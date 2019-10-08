@@ -1,0 +1,15 @@
+{% extends '_base.html' %}
+{% block content %}
+<h1> This is home.html </h1>
+<ol>
+
+{% if user.is_authenticated %}
+<a href="{% url 'new' %}"> Add new </a>
+{% endif %}
+{% for product in products %}
+ 
+<li>{{ product.title }} <img src="{{ product.image.url }}" height="50px" width="50px"></img> {{ product.cost }}  <a href= "{% url 'product_detail' slug=product.slug %}">Know more </a></li>
+
+{% endfor %}
+</ol>
+{% endblock %}

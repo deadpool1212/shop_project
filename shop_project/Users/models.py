@@ -24,3 +24,14 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     def __str__(self):
         return self.email
 
+class Customer(models.Model):
+    User=models.OneToOneField(CustomUser,on_delete=models.CASCADE, primary_key=True)
+    Address=models.CharField(max_length=255)
+    def __str__(self):
+        return self.User.email
+
+class Company(models.Model):
+    User=models.OneToOneField(CustomUser,on_delete=models.CASCADE, primary_key=True)
+    domain=models.URLField()
+    def __str__(self):
+        return self.User.email

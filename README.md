@@ -1,4 +1,4 @@
-# E-commerce website | Unicode assignment
+# E-commerce website | Unicode
 
 It is a E commerce website part of the learning process at Dj Unicode
 

@@ -3,11 +3,15 @@
 <h1> This is the product detail </h1>
 <ol>
 {% block content %}
-{% if user.is_authenticated %}
+{% if user.is_authenticated and user.is_company %}
 <a href="{% url 'new' %}"> Add new </a>
 {% endif %}
 
-<li>{{ product.title }} {{ product.descrip }} <img src="{{ product.image.url }}" height="50px" width="50px"></img> {{ product.cost }}  <a href="{% url 'product_edit' slug=product.slug %}">Change something</a> </li>
+<li>{{ product.title }} {{ product.descrip }} <img src="{{ product.image.url }}" height="50px" width="50px"></img> {{ product.cost }}  
+	{% ifequal user product.publisher %}
+	<a href="{% url 'product_edit' slug=product.slug %}">Change something</a> 
+	{% endifequal %}
+</li>
 
 </ol>
 {% endblock %}

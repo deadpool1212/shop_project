@@ -3,7 +3,7 @@
 <h1> This is home.html </h1>
 <ol>
 
-{% if user.is_authenticated %}
+{% if user.is_authenticated  and user.is_company %}
 <a href="{% url 'new' %}"> Add new </a>
 {% endif %}
 {% for product in products %}

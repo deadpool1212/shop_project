@@ -2,6 +2,8 @@ from django.shortcuts import render , redirect, get_object_or_404
 from django.http import HttpResponse
 from .models import Product
 from .forms import ProductForm
+from Users.decorators import *
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 def home(request,*args,**kwargs):
@@ -9,6 +11,9 @@ def home(request,*args,**kwargs):
 	
 	return render(request,'product_home.html',{'products' : products }) 
 
+
+@login_required
+@company_required
 def new_product(request,*args,**kwargs):
 	if request.method == "POST":
 		form = ProductForm(request.POST, request.FILES)
@@ -22,15 +27,18 @@ def new_product(request,*args,**kwargs):
 			return redirect('product_detail',slug=post.slug)
 	else:
 		form = ProductForm()
-	return render(request, 'product_edit.html', {'form': form})
+	return render(request, 'product_new.html', {'form': form})
 
 def success(request):
 	return HttpResponse('Success')
 
 def product_detail(request,slug):
+	
 	product=Product.objects.get(slug=slug)
-	return render(request,'product_detail.html',{'product':product})
+	return render(request,'product_detail.html',{'product':product })
 
+@login_required
+@company_required
 def product_edit(request,slug,*args,**kwargs):
 	post = get_object_or_404(Product, slug=slug)
 	if request.method == "POST":
@@ -45,4 +53,4 @@ def product_edit(request,slug,*args,**kwargs):
 			return redirect('product_detail',slug=post.slug)
 	else:
 		form = ProductForm(instance=post)
-	return render(request, 'product_edit.html', {'form': form})
+	return render(request, 'product_edit.html', {'form': form , 'Product':post})

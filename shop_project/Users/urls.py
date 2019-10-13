@@ -11,7 +11,11 @@ urlpatterns = [
     re_path(r'^new/$',new_product , name='new'),
     re_path(r'^success/$', success, name = 'success'), 
     path('detail/<slug:slug>/',product_detail,name='product_detail'),
-    path('change/<slug:slug>/',product_edit,name='product_edit')
+    path('change/<slug:slug>/',product_edit,name='product_edit'),
+    path('cart/',cart_view, name='cart_view'),
+    path('Cart_add/<slug:slug>',cart_add, name='addtocart'),
+    path('Cart_remove/<slug:slug>',remove_from_cart, name='removefromcart'),
+
 ]
 
 urlpatterns += [

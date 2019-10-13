@@ -1,6 +1,4 @@
 
-
-
 {% if user.is_authenticated %}
   Welcome, {{ user.email }}!
   <p><a href="{% url 'logout' %}">Log Out</a></p>
@@ -9,4 +7,8 @@
   <a href="{% url 'login' %}">Log In</a> |
   <a href="{% url 'signupcustomer' %}">Sign Up as A Customer</a>
   <a href="{% url 'signupcompany' %}">Sign Up as A Company</a>
+{% endif %}
+
+{% if user.is_authenticated and not user.is_company %}
+<a href="{% url 'cart_view' %}">View cart </a>
 {% endif %}

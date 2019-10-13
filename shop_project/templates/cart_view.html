@@ -1,0 +1,21 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+<ol>
+{% for product in products %}
+ 
+<li>{{ product.title }} <img src="{{ product.image.url }}" height="50px" width="50px"></img> , cost is = {{ product.cost }}  <a href= "{% url 'product_detail' slug=product.slug %}">Full Info </a></li>  
+{% if user.is_authenticated and not user.is_company %}
+	<form action="{% url 'removefromcart' slug=product.slug %}" method='POST'>
+	{% csrf_token %}
+	
+	<button type='submit'> Remove from Cart</button>
+	</form>	
+	{% endif %}
+
+{% endfor %}
+</ol>
+<br>
+ Total Due={{ cart.total }}
+{% endblock %}

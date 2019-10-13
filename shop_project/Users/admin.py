@@ -31,4 +31,3 @@ admin.site.register(Company)
 
 admin.site.register(Product)
 admin.site.register(Cart)
-admin.site.register(Entry)

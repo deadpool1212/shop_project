@@ -13,6 +13,33 @@ from .decorators import *
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 
+@login_required
+@customer_required
+def cart_add(request,slug,*args,**kwargs):
+    product = get_object_or_404(Product, slug=slug)
+    cart=Cart.objects.get(user=request.user)
+    cart.products.add(product)
+    cart.save()
+    print(cart)
+    return redirect('product_detail',slug=product.slug)
+
+@login_required
+@customer_required
+def remove_from_cart(request,slug,*args,**kwargs):
+    product = get_object_or_404(Product, slug=slug)
+    cart=Cart.objects.get(user=request.user)
+    cart.products.remove(product)
+    cart.save()
+    print(cart)
+    return redirect('cart_view')
+
+@customer_required
+def cart_view(request, *args , **kwargs):
+    cart=Cart.objects.get(user=request.user)
+    products=cart.products.all()
+    return render(request, 'cart_view.html', {'cart': cart , 'products': products})
+
+
 def home(request,*args,**kwargs):
     products=Product.objects.order_by('-title')
     
@@ -40,9 +67,17 @@ def success(request):
     return HttpResponse('Success')
 
 def product_detail(request,slug):
-    
+    flag=False
+
+    if(not request.user.is_company):
+        products=(Cart.objects.get(user=request.user)).products.all()
+
     product=Product.objects.get(slug=slug)
-    return render(request,'product_detail.html',{'product':product })
+
+    for p in products:
+        if(p==product):
+            flag=True
+    return render(request,'product_detail.html',{'product':product ,'flag':flag})
 
 @login_required
 @company_required
@@ -78,7 +113,8 @@ class CustomerSignUpView(generic.CreateView):
 
     def form_valid(self, form):
         user = form.save()
-        
+        cart = Cart(user=user,total=0)
+        cart.save()
         return redirect('login')
 
 class CompanySignUpView(generic.CreateView):

@@ -11,6 +11,17 @@
 	{% ifequal user product.publisher %}
 	<a href="{% url 'product_edit' slug=product.slug %}">Change something</a> 
 	{% endifequal %}
+	{% if user.is_authenticated and not user.is_company %}
+	{% if not flag %}
+	<form action="{% url 'addtocart' slug=product.slug %}" method='POST'>
+	{% csrf_token %}
+	
+	<button type='submit'> Add to cart</button>
+	</form>	
+	{% else %}
+	Already in cart.
+	{% endif %}
+	{% endif %}
 </li>
 
 </ol>

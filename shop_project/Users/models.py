@@ -36,32 +36,19 @@ class Product(models.Model):
 
 
 class Cart(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.CASCADE)
-    count = models.PositiveIntegerField(default=0)
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.CASCADE)
     total = models.DecimalField(default=0.00, max_digits=10, decimal_places=2)
     updated = models.DateTimeField(auto_now=True)
     timestamp = models.DateTimeField(auto_now_add=True)
+    products = models.ManyToManyField(Product)
 
     def __str__(self):
-        return "User: {} has {} items in their cart. Their total is ${}".format(self.user, self.count, self.total)
-
-
-class Entry(models.Model):
-    product = models.ForeignKey('Product', null=True, on_delete=models.CASCADE)
-    cart = models.ForeignKey('Cart', null=True, on_delete=models.CASCADE)
-    quantity = models.PositiveIntegerField()
-
-    def __str__(self):
-        return "This entry contains {} {}(s).".format(self.quantity, self.product.title)
-
-
-@receiver(post_save, sender=Entry)
-def update_cart(sender, instance, **kwargs):
-    line_cost = instance.quantity * instance.product.cost
-    instance.cart.total += line_cost
-    instance.cart.count += instance.quantity
-    instance.cart.updated = datetime.now()
-
+        return "User: {} has items in their cart. Their total is ${}".format(self.user, self.total)
+    def save(self, *args, **kwargs):
+        self.total=0
+        for product in self.products.all():
+            self.total+=product.cost
+        super(Cart, self).save(*args, **kwargs)
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(_('email address'), unique=True)

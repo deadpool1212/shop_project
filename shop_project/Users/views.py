@@ -12,6 +12,12 @@ from .forms import *
 from .decorators import *
 from django.contrib.auth.decorators import login_required
 # Create your views here.
+@customer_required
+def cart_view(request, *args , **kwargs):
+    cart=Cart.objects.get(user=request.user)
+    products=cart.products.all()
+    return render(request, 'cart_view.html', {'cart': cart , 'products': products})
+
 
 def home(request,*args,**kwargs):
     products=Product.objects.order_by('-title')
@@ -78,7 +84,8 @@ class CustomerSignUpView(generic.CreateView):
 
     def form_valid(self, form):
         user = form.save()
-        
+        cart = Cart(user=user,total=0)
+        cart.save()
         return redirect('login')
 
 class CompanySignUpView(generic.CreateView):

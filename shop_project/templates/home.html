@@ -1,8 +1,6 @@
-{% extends '_base.html' %}
 
-{% block title %}Home{% endblock %}
 
-{% block content %}
+
 {% if user.is_authenticated %}
   Welcome, {{ user.email }}!
   <p><a href="{% url 'logout' %}">Log Out</a></p>
@@ -12,4 +10,3 @@
   <a href="{% url 'signupcustomer' %}">Sign Up as A Customer</a>
   <a href="{% url 'signupcompany' %}">Sign Up as A Company</a>
 {% endif %}
-{% endblock %}

@@ -28,3 +28,7 @@ class CustomUserAdmin(UserAdmin):
 admin.site.register(CustomUser, CustomUserAdmin)
 admin.site.register(Customer)
 admin.site.register(Company)
+
+admin.site.register(Product)
+admin.site.register(Cart)
+admin.site.register(Entry)

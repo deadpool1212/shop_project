@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  {% block title %}
   <title>Custom User Model</title>
+  {% endblock title %}
 </head>
 <body>
+  {% include 'home.html' %}
+  {#  Home.html is where the navbar would be #}
   {% block content %}
   {% endblock %}
 </body>

@@ -3,6 +3,12 @@ from django import forms
 from .models import *
 from django.db import transaction
 
+class ProductForm(forms.ModelForm):
+
+    class Meta:
+        model = Product
+        fields = ('title', 'descrip','image','cost')
+        
 class CustomUserCreationForm(UserCreationForm):
 
     class Meta(UserCreationForm):

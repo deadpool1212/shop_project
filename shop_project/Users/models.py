@@ -40,7 +40,9 @@ class Cart(models.Model):
     total = models.DecimalField(default=0.00, max_digits=10, decimal_places=2)
     updated = models.DateTimeField(auto_now=True)
     timestamp = models.DateTimeField(auto_now_add=True)
+
     products = models.ManyToManyField(Product , blank=True)
+
 
     def __str__(self):
         return "User: {} has items in their cart. Their total is ${}".format(self.user, self.total)
@@ -50,11 +52,13 @@ class Cart(models.Model):
             self.total+=product.cost
         super(Cart, self).save(*args, **kwargs)
 
+
     def get_all_products(self):
         product=[]
         for prod in self.products:
             product.append(prod)
         return product
+
 
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):

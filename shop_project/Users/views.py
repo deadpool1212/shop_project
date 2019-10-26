@@ -12,6 +12,12 @@ from .forms import *
 from .decorators import *
 from django.contrib.auth.decorators import login_required
 # Create your views here.
+@customer_required
+def cart_view(request, *args , **kwargs):
+    cart=Cart.objects.get(user=request.user)
+    products=cart.products.all()
+    return render(request, 'cart_view.html', {'cart': cart , 'products': products})
+
 
 @login_required
 @customer_required

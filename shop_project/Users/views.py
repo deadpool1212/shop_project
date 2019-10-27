@@ -10,8 +10,19 @@ from django.shortcuts import render , redirect, get_object_or_404
 from django.http import HttpResponse
 from .forms import *
 from .decorators import *
-from django.contrib.auth.decorators import login_required
 # Create your views here.
+def company_products(request,pk,*args,**kwargs):
+    reqd_publisher=CustomUser.objects.get(pk=pk)
+    products=Product.objects.filter(publisher=reqd_publisher)
+    print(products)
+    return render(request,'product_home.html',{'products' : products }) 
+
+
+def company_list(request):
+    companies=CustomUser.objects.filter(is_company=True)
+
+    return render(request,'company_list.html',{'companies' : companies})
+
 @customer_required
 def cart_view(request, *args , **kwargs):
     cart=Cart.objects.get(user=request.user)
@@ -69,20 +80,17 @@ def new_product(request,*args,**kwargs):
         form = ProductForm()
     return render(request, 'product_new.html', {'form': form})
 
-def success(request):
+def success(request,pk,*args,**kwargs):
     return HttpResponse('Success')
-
+@login_required
 def product_detail(request,slug):
     flag=False
-
+    product=Product.objects.get(slug=slug)
     if(not request.user.is_company):
         products=(Cart.objects.get(user=request.user)).products.all()
-
-    product=Product.objects.get(slug=slug)
-
-    for p in products:
-        if(p==product):
-            flag=True
+        for p in products:
+            if(p==product):
+                flag=True
     return render(request,'product_detail.html',{'product':product ,'flag':flag})
 
 @login_required

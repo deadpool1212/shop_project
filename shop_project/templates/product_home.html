@@ -1,6 +1,6 @@
 {% extends '_base.html' %}
 {% block content %}
-<h1> This is home.html </h1>
+<a href="{% url 'companies' %}">Filter by companies</a>
 <ol>
 
 {% if user.is_authenticated  and user.is_company %}

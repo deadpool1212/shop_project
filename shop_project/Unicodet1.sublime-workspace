@@ -1,0 +1,861 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"Success"
+			],
+			[
+				"req",
+				"reqd_publisher"
+			],
+			[
+				"Custe",
+				"CustomUser"
+			],
+			[
+				"is",
+				"is_company"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"customer",
+				"customer_required"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"cart",
+				"cart_view"
+			],
+			[
+				"p",
+				"products"
+			],
+			[
+				"Coma",
+				"CompanySignUpView"
+			],
+			[
+				"Custom",
+				"CustomUser"
+			],
+			[
+				"Cu",
+				"CustomUser"
+			],
+			[
+				"image",
+				"imageurl"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"CA",
+				"CASCADE"
+			],
+			[
+				"wid",
+				"width\tAttr"
+			],
+			[
+				"Pr",
+				"ProductForm"
+			],
+			[
+				"au",
+				"auto_now"
+			],
+			[
+				"now",
+				"auto_now_add"
+			],
+			[
+				"signup",
+				"signupcompany"
+			],
+			[
+				"phone",
+				"phone_number"
+			],
+			[
+				"pho",
+				"phone_number"
+			],
+			[
+				"ques",
+				"question_list"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"user",
+				"userform"
+			],
+			[
+				"Mode",
+				"ModelForm\tModelForm"
+			],
+			[
+				"STA",
+				"STATIC_ROOT"
+			],
+			[
+				"ST",
+				"STATIC_URL"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"STAT",
+				"STATICFILES_DIRS"
+			],
+			[
+				"re",
+				"register"
+			],
+			[
+				"Ba",
+				"BASE_DIR"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"TEM",
+				"TEMPLATE_DIRS"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"ad",
+				"admin"
+			],
+			[
+				"wi",
+				"width\tAttr"
+			],
+			[
+				"li",
+				"list1"
+			],
+			[
+				"launch",
+				"launch_date_utc"
+			],
+			[
+				"rock",
+				"rocket_name"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"hae",
+				"headers"
+			],
+			[
+				"temp",
+				"tempdict"
+			],
+			[
+				"lau",
+				"launchinfo"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"roc",
+				"rocket_name"
+			],
+			[
+				"ro",
+				"rocket_name"
+			],
+			[
+				"la",
+				"launchinfo"
+			],
+			[
+				"rocket",
+				"rocket_name"
+			],
+			[
+				"get",
+				"get_all_rockets"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Users/models.py",
+			"settings":
+			{
+				"buffer_size": 3317,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/cart_view.html",
+			"settings":
+			{
+				"buffer_size": 581,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/product_detail.html",
+			"settings":
+			{
+				"buffer_size": 767,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Users/urls.py",
+			"settings":
+			{
+				"buffer_size": 1030,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Users/views.py",
+			"settings":
+			{
+				"buffer_size": 4622,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lawliet/Dev/java/Javaoopm/JavaPracticals/Solutions/Practical1/one_two.java",
+			"settings":
+			{
+				"buffer_size": 305,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Users/decorators.py",
+			"settings":
+			{
+				"buffer_size": 1583,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/company_list.html",
+			"settings":
+			{
+				"buffer_size": 214,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/product_home.html",
+			"settings":
+			{
+				"buffer_size": 468,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Users/admin.py",
+			"settings":
+			{
+				"buffer_size": 1044,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 191.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/lawliet/Dev/DjangoProjects/product",
+		"/home/lawliet/Dev/DjangoProjects/product/src"
+	],
+	"file_history":
+	[
+		"/home/lawliet/Dev/java/Javaoopm/JavaPracticals/Solutions/Practical5/volume.java",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/home.html",
+		"/home/lawliet/Dev/BashScripts/Gitshit/gitshit/gitshit",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/views.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/shop_project/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/registration/login.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/signup_customer.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/signup.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/_base.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/forms.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/shop_project/settings.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/managers.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/models.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/decorators.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/apps.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/admin.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Users/tests.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/product/admin.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/product/forms.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/product_home.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/product_detail.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/product_edit.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/product/views.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/templates/product_new.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/product/models.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/product/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/templates/base.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/carttest/settings.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/product/admin.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/product/forms.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/templates/product_edit.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/templates/product_detail.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/templates/home.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/product/views.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/product/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/carttest/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/carttest/product/models.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/Product/models.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/shop_project/__init__.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/templates/home.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/company/models.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/shop_project/customer/models.py",
+		"/home/lawliet/Dev/DjangoProjects/product/src/templates/_base.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/templates/registration/login.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/templates/signup.html",
+		"/home/lawliet/Dev/DjangoProjects/product/src/requirements.txt",
+		"/home/lawliet/Dev/DjangoProjects/hack/src/col_for/User/w",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/admin.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/templates/forum_app/signup.html",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/templates/forum_app/base.html",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/templates/forum_app/nav2.html",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/models.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/forms.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/views.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/db.sqlite3",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/users/forms.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/users/models.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/college_forum/settings.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/forum_app/templates/forum_app/question_list.html",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/college_forum/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/templates/base.html",
+		"/home/lawliet/Dev/DjangoProjects/myvenv/src/VCET-hack/templates/tp.html",
+		"/home/lawliet/Dev/DjangoProjects/blogapp/src/mysite/mysite/settings.py",
+		"/home/lawliet/Dev/DjangoProjects/blogapp/src/mysite/blog/forms.py",
+		"/home/lawliet/Dev/DjangoProjects/blogapp/src/mysite/blog/admin.py",
+		"/home/lawliet/Dev/DjangoProjects/blogapp/src/mysite/blog/apps.py",
+		"/home/lawliet/Dev/DjangoProjects/blogapp/src/mysite/blog/templates/blog/post_list.html",
+		"/home/lawliet/Dev/DjangoProjects/blogapp/src/mysite/templates/post_list.html",
+		"/home/lawliet/Dev/DjangoProjects/blogapp/src/mysite/templates/post_list,html",
+		"/home/lawliet/Dev/DjangoProjects/blogapp/src/mysite/blog/templates/post_list.html",
+		"/home/lawliet/Dev/DjangoProjects/venv/src/task/SpaceX.sublime-project",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/blog/views.py",
+		"/home/lawliet/Dev/DjangoProjects/venv/src/task/core/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/blog_project/settings.py",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/templates/base.html",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/templates/sidebar.html",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/templates/index.html",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/templates/post_detail.html",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/blog/models.py",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/blog/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/blog_project/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/blog/src/blog_project/blog/admin.py",
+		"/home/lawliet/Dev/ML/Andrew Ng/machine-learning-ex3/ex3/ex3data1.mat",
+		"/home/lawliet/Dev/DjangoProjects/blog_venv/src/diyblog/diyblog/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/blog_venv/src/diyblog/catalog/urls.py",
+		"/home/lawliet/Dev/DjangoProjects/blog_venv/src/diyblog/diyblog/settings.py",
+		"/home/lawliet/Dev/DjangoProjects/blog_venv/src/diyblog/manage.py",
+		"/home/lawliet/Dev/Web/Frontend/Siddham/index.html",
+		"/home/lawliet/Dev/DjangoProjects/task1.py",
+		"/home/lawliet/Dev/DjangoProjects/venv/src/task/core/tests.py",
+		"/home/lawliet/Dev/DjangoProjects/venv/src/task/task/settings.py"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"user"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Users/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2164,
+								2164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1329.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/cart_view.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/product_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								723,
+								723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Users/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								846,
+								846
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Users/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/lawliet/Dev/java/Javaoopm/JavaPracticals/Solutions/Practical1/one_two.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Users/decorators.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/company_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/product_home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Users/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1044,
+								1044
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "Unicodet1.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
